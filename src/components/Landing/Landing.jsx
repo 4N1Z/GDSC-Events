@@ -1,5 +1,6 @@
 import React from "react";
 import "./Landing.css";
+import { execomDetails } from "../../assets/export";
 
 function Landing() {
   return (
@@ -9,18 +10,28 @@ function Landing() {
         {/* <div className="row"> */}
 
         <div className="rowCard">
-          <div class="card">Team</div>
-          <div class="card">Team</div>
-          <div class="card">Team</div>
-          <div class="card">Team</div>
-          <div class="card">Team</div>
-          <div class="card">Team</div>
-          <div class="card">Team</div>
-          <div class="card">Team</div>
-          <div class="card">Team</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+          <div class="card">Aniz</div>
+         
         </div>
 
-        {}
+        {/* {execomDetails.map((data)=>{
+          <div className="rowCard">
+            <div className={data.index + `${"card"}`}>Team</div>
+          </div>
+          
+        })} */}
 
         {/* </div> */}
       </div>
