@@ -8,7 +8,12 @@
     --card-height: 45vh;
     --card-width: calc(var(--card-height) / 1.5);
 }
+/* .Execom{
+    font-size: var(--heading);
+    font-weight: 400;
+    letter-spacing: 10px;
 
+} */
 .OurExecom{
     padding-top: 40px;
     text-align: center;
@@ -77,7 +82,7 @@
     letter-spacing: 10px;
 
     display: flex;
-    font-size: 1.5em;
+    font-size: var(--subHeading);
     color: rgb(88 199 250 / 0%);
     cursor: pointer;
     /* font-family: cursive; */

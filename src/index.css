@@ -6,4 +6,15 @@
 
   /* --card-height: 65vh;
   --card-width: calc(var(--card-height) / 1.5); */
+  --heading: 2.5em ;
+  --subHeading: 1.3em ;
+}
+.commonHeading{
+
+  font-size: var(--heading);
+  font-weight: 400;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-align: center;
+
 }
