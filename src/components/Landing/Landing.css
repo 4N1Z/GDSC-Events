@@ -35,8 +35,9 @@
     overflow-x: scroll;
     overflow-y: hidden;
 
-    margin:0 20px 0 20px;
+    margin:0 25px 0 25px;
 }
+
 .members_of_GDSC::-webkit-scrollbar{
     display: none;
 }
@@ -54,6 +55,7 @@
 
 .rowCard{
     display: flex; 
+    margin-left: 10px;
 }
 
 .card{
@@ -72,9 +74,9 @@
     background-position: 50%;
     width: var(--card-width);
     height: var(--card-height);
-    padding: 3px;
+    padding: 4px;
     position: relative;
-    border-radius: 6px;
+    border-radius: 3px;
     justify-content: center;
     /* align-items: center; */
     text-align:start;
@@ -82,10 +84,22 @@
     letter-spacing: 10px;
 
     display: flex;
+    flex-direction: column;
+    
+    justify-content: flex-end;
     font-size: var(--subHeading);
     color: rgb(88 199 250 / 0%);
     cursor: pointer;
     /* font-family: cursive; */
+}
+
+.ExecomPosition{
+    padding-left: 12px;
+    padding-bottom: 10px;
+    font-size: 1em;
+    letter-spacing: 3px;
+    font-weight: 600;
+
 }
 
 .card:hover {
@@ -104,7 +118,7 @@
     content: "";
     width: 104%;
     height: 102%;
-    border-radius: 8px;
+    border-radius: 3px;
     background-image: linear-gradient(var(--rotate), var(--red),var(--yellow), var(--green),43%,var(--blue));
     position: absolute;
     z-index: -1;

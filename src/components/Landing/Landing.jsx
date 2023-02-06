@@ -10,19 +10,17 @@ function Landing() {
         {/* <div className="row"> */}
 
         <div className="rowCard">
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
-          <div class="card">Aniz</div>
+          <div class="card"><h3 className="ExecomPosition">Lead</h3> </div>
+          <div class="card"><h3 className="ExecomPosition">Tech Lead</h3> </div>
+          <div class="card"><h3 className="ExecomPosition">Design Lead</h3> </div>
+          <div class="card"><h3 className="ExecomPosition">Operation Lead</h3> </div>
+          <div class="card"><h3 className="ExecomPosition">App Dev Lead</h3> </div>
+          <div class="card"><h3 className="ExecomPosition">Social Lead</h3> </div>
+          <div class="card"><h3 className="ExecomPosition">Content Lead</h3> </div>
+          <div class="card"><h3 className="ExecomPosition">Graphic Design Lead</h3> </div>
+          <div class="card"><h3 className="ExecomPosition">Outreach Lead</h3> </div>
+          <div class="card"><h3 className="ExecomPosition">Web Lead</h3> </div>
+          
          
         </div>
 
