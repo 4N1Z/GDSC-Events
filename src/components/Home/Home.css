@@ -1,0 +1,65 @@
+.HomeSection{
+    min-height: 60vh;
+    /* background-color: rgba(0, 0, 0, 0.436); */
+    /* background-color: rgb(255, 255, 255); */
+}
+.gdscHome{
+    text-align: center;
+    /* padding: 10em; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 100px 40px 0 40px;
+}
+.video-container {
+    /* width: 500px;
+    height: 300px; */
+    overflow: hidden;
+  }
+.HomeHeading{
+    font-size: var(--heading);
+    font-weight: 400;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+  
+    
+}
+.HomeSubHeading{
+    /* padding-top: 8px; */
+    font-weight: 500;
+    color: rgb(45, 45, 45);
+    letter-spacing: 1px;
+    padding: 20px;
+    /* text-transform: capitalize; */
+}
+
+
+   /* Responsive video container */
+   .video-background::before {
+    /* background: url(../../assets/video.mp4) no-repeat center center fixed; */
+    /* background-color: black; */
+    /* z-index: ; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+  }
+  .video-background::after{
+    background-color: black;
+  }
+
+  /* Text on top of video */
+  .video-text {
+    color: white;
+    /* font-size: 36px;
+    font-weight: bold; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }

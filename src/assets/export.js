@@ -1,9 +1,11 @@
 import logo from "../assets/logo.svg";
 import blackLogo from "../assets/GDSC_logo.png";
+import HomeVideo from "../assets/video.mp4"
 
 export {
     logo,
-    blackLogo
+    blackLogo,
+    HomeVideo,
 };
 
 export const execomDetails = [
