@@ -28,7 +28,7 @@
 
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1);
   grid-column-gap: var(--spacing-l);
   grid-row-gap: var(--spacing-l);
   max-width: var(--width-container);
@@ -38,13 +38,15 @@
 
 @media(min-width: 540px) {
   .card-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
   }
 }
 
 @media(min-width: 960px) {
   .card-grid {
     grid-template-columns: repeat(4, 2fr);
+    /* grid-template-columns: repeat(1, 8); */
+    /* grid-template-rows: repeat(4, 2fr); */
   }
 }
 
@@ -65,8 +67,9 @@
   background-image: url("https://images.unsplash.com/photo-1557004396-66e4174d7bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   background-position: center;
-  border-radius: 8px;
+  border-radius: 4px;
   bottom: 0;
+  
   filter: brightness(0.5) saturate(1.2) contrast(0.85);
   left: 0;
   position: absolute;
@@ -104,7 +107,6 @@
 .card__category {
 
   display: none;
-
   right: 0;
   color: var(--text-light);
   font-size: 0.9rem;
@@ -121,5 +123,5 @@
   /* word-spacing: 1vw; */
   font-weight: 600;
   letter-spacing: 2px;
-  
+
 }

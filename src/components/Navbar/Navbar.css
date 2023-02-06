@@ -16,7 +16,7 @@
     background: linear-gradient(90deg, #4285F4 0%, #3E87E7 20.04%, #0F9D58 20.38%, #0F9D58 48.67%, #FBBC05 49.18%, #FBBC05 78.07%, #EA4335 78.41%, #EA4335 100%);
 }
 
-@media (max-width:860px) {
+@media (max-width:920px) {
     .gdscLine{
         width: 640px;
     }
@@ -29,6 +29,18 @@
     }
     .gdscLine{
         width: 360px;
+
+    }
+
+    
+}
+
+@media (max-width:420px) {
+    .GDSC-logo{
+        width: 15em;
+    }
+    .gdscLine{
+        width: 220px;
 
     }
 
