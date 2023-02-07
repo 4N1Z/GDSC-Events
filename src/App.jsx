@@ -5,6 +5,7 @@ import Landing from './components/Landing/Landing'
 import Navbar from './components/Navbar/Navbar'
 import Events from './components/Events/Events'
 import Home from './components/Home/Home'
+import Programs from './components/Programs/Programs'
 
 function App() {
 
@@ -13,8 +14,10 @@ function App() {
         <Navbar/>
         <Home/>
         <Landing/>
-        <Events/>
+        {/* <Events/> */}
+        <Programs/>
         <Footer/>
+
       
     </div>
   )

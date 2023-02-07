@@ -1,0 +1,17 @@
+.Event__Cards{
+
+    min-height: 100vh; 
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 2fr;
+    /* grid-column-gap: 20em; */
+    /* justify-items: center; */
+}
+
+.Event__Item{
+
+    height: 12em;
+    width: 30em;
+    background-color: brown;
+
+}
